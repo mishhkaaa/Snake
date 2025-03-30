@@ -215,16 +215,10 @@ function initializeGameUI() {
             <h2>🐍 Snake Game</h2>
         `;
         
-        // Create footer
-        const footer = document.createElement('footer');
-        footer.id = 'gameFooter';
-        footer.innerHTML = `
-            <p>© 2025 Snake Game. All rights reserved.</p>
-        `;
+        
     
         // Insert into the document
         document.body.prepend(header);
-        document.body.appendChild(footer);
     }
     
     // Call this function in initializeGameUI()
