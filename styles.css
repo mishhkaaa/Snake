@@ -488,3 +488,7 @@ footer {
 .dark-theme #leaderboardList{
     color: var(--text-color);
 }
+
+.dark-theme .game-over-screen p {
+    color: var(--text-color);
+}
