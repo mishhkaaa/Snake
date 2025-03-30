@@ -1,7 +1,7 @@
 export const CONFIG = {
-    GRID_SIZE: 20,
-    CANVAS_WIDTH: 600,
-    CANVAS_HEIGHT: 600,
+    GRID_SIZE: 10,
+    CANVAS_WIDTH: 400,
+    CANVAS_HEIGHT: 400,
     INITIAL_SPEED: {
         easy: 200,
         medium: 150,
