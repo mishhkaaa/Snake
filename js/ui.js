@@ -202,24 +202,26 @@ function initializeGameUI() {
         </div>
     `;
 
-    // function createHeaderAndFooter() {
-    //     // Check if header/footer already exists
-    //     if (document.getElementById('gameHeader') || document.getElementById('gameFooter')) {
-    //         return; // Prevent duplicates
-    //     }
-    
-    //     // Create header
-    //     const header = document.createElement('header');
-    //     header.id = 'gameHeader';
-    //     header.innerHTML = `
-    //         <h2>🐍 Snake Game</h2>
-    //     `;
+    function createHeaderAndFooter() {
+        // Check if header/footer already exists
+        if (document.getElementById('gameHeader') || document.getElementById('gameFooter')) {
+            return; // Prevent duplicates
+        }
         
+        // Create header
+        const header = document.createElement('header');
+        header.id = 'gameHeader';
+        header.innerHTML = `<h2>🐍 Snake Game</h2>`;
         
-    
-    //     // Insert into the document
-    //     document.body.prepend(header);
-    // }
+        // Create footer
+        const footer = document.createElement('footer');
+        footer.id = 'gameFooter';
+        footer.innerHTML = `<p>© 2025 Snake Game. All rights reserved.</p>`;
+        
+        // Insert into the document
+        document.body.prepend(header);
+        document.body.appendChild(footer);
+    }
     
     // Call this function in initializeGameUI()
     createHeaderAndFooter();
