@@ -484,3 +484,7 @@ footer {
 .dark-theme .instructions li{
     color: var(--text-color);
 }
+
+.dark-theme #leaderboardList{
+    color: var(--text-color);
+}
